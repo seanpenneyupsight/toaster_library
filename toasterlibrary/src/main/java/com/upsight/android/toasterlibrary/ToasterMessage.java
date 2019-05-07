@@ -12,7 +12,7 @@ public class ToasterMessage {
         new Handler(Looper.getMainLooper()).post(new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(c, "Sean Hello World", Toast.LENGTH_SHORT).show();
+                Toast.makeText(c, "Sean Hello World jitpack", Toast.LENGTH_SHORT).show();
             }
         });
     }
